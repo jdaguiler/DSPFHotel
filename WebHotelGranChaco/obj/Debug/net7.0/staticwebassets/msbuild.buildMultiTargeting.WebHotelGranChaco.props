@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebHotelGranChaco.props" />
+</Project>

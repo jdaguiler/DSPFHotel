@@ -1,0 +1,47 @@
+﻿@model IEnumerable<WebHotelGranChaco.Models.TipoHabitacion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@*<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>*@
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h3 class="card-title">@Html.DisplayFor(modelItem => item.NombreTipo)</h3>
+                        <table class="table table-sm">
+                            <tbody>
+                                <tr>
+                                    <th>Capacidad Máxima:</th>
+                                    <td>@Html.DisplayFor(modelItem => item.CapacidadMaxima)</td>
+                                </tr>
+                                <tr>
+                                    <th>Precio Base:</th>
+                                    <td>@Html.DisplayFor(modelItem => item.PrecioBase)</td>
+                                </tr>
+                                <tr>
+                                    <th>Descripción:</th>
+                                    <td>@Html.DisplayFor(modelItem => item.Descripcion)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block text-center">
+                        <a asp-action="Edit" asp-route-id="@item.Id_Tipo" class="btn btn-primary"><i class="bi bi-pencil-square"></i></a>
+                        <a asp-action="Details" asp-route-id="@item.Id_Tipo" class="btn btn-info"><i class="bi bi-info-square"></i></a>
+                        <a asp-action="Delete" asp-route-id="@item.Id_Tipo" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

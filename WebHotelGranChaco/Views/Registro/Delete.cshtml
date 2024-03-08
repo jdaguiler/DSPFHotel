@@ -1,0 +1,84 @@
+﻿@model WebHotelGranChaco.Dtos.DtoRegistro
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<div class="container">
+    <div class="row justify-content-center">
+        <h1>Eliminar registro</h1>
+
+        <h3>¿Estás seguro de eliminar este registro?</h3>
+        <div>
+            <div class="col-md-6 shadow-sm p-3 mb-5 rounded">
+                <h4>Detalles del registro</h4>
+                <hr />
+                <dl class="row">
+                    <dt class="col-sm-2">
+                        Fecha Registro:
+                    </dt>
+                    <dd class="col-sm-10">
+                        <input asp-for="FechaRegistro" class="form-control" readonly />
+                    </dd>
+                    <dt class="col-sm-2">
+                        Fecha Salida:
+                    </dt>
+                    <dd class="col-sm-10">
+                        <input asp-for="FechaSalida" class="form-control" readonly />
+                    </dd>
+                    <dt class="col-sm-2">
+                        Número Habitación:
+                    </dt>
+                    <dd class="col-sm-10">
+                        <input asp-for="NumeroHabitacion" class="form-control" readonly />
+                    </dd>
+                    <dt class="col-sm-2">
+                        Número Huspedes:
+                    </dt>
+                    <dd class="col-sm-10">
+                        <input asp-for="NumeroHuspedes" class="form-control" readonly />
+                    </dd>
+                    <dt class="col-sm-2">
+                        Noches:
+                    </dt>
+                    <dd class="col-sm-10">
+                        <input asp-for="Noches" class="form-control" readonly />
+                    </dd>
+                    <dt class="col-sm-2">
+                        Estado:
+                    </dt>
+                    <dd class="col-sm-10">
+                        <input asp-for="Estado" class="form-control" readonly />
+                    </dd>
+                    <dt class="col-sm-2">
+                        Precio Total:
+                    </dt>
+                    <dd class="col-sm-10">
+                        <input asp-for="PrecioTotal" class="form-control" readonly />
+                    </dd>
+                    <dt class="col-sm-2">
+                        Cliente Teléfono:
+                    </dt>
+                    <dd class="col-sm-10">
+                        <input asp-for="Cliente.Telefono" class="form-control" readonly />
+                    </dd>
+                    <dt class="col-sm-2">
+                        Habitación Estado:
+                    </dt>
+                    <dd class="col-sm-10">
+                        <input asp-for="Habitacion.Estado" class="form-control" readonly />
+                    </dd>
+                    <dt class="col-sm-2">
+                        Usuario Correo Electrónico:
+                    </dt>
+                    <dd class="col-sm-10">
+                        <input asp-for="Usuario.CorreoElectronico" class="form-control" readonly />
+                    </dd>
+                </dl>
+                <form asp-action="Delete" asp-route-id="@Model.Id_Registro" method="post">
+                    <input type="submit" value="Eliminar" class="btn btn-danger" />
+                    <a asp-action="Index" class="btn btn-primary">Volver al listado</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

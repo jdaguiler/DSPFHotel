@@ -1,0 +1,79 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold; /* Texto en negrita */
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #13326a;
+    border-color: #13326a;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px #0F4C75;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: #0F4C75;
+    padding: 15px;
+    border-bottom: 2px solid #eee8e8;
+}
+
+h3.card-title {
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding-inline-start: 1rem;
+    transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out; /* Transición suave */
+}
+
+    .navbar-nav .nav-item .nav-link:hover {
+        background-color: #3282B8;
+        border-radius: 3rem;
+    }
+.enlace-amarillo .nav-link,
+.enlace-amarillo .nav-link:hover,
+.enlace-amarillo .nav-link:focus {
+    color: yellow;
+    background-color: #4F709C;
+    border-radius: 3rem;
+}
+
+.enlace-amarillo .bi {
+    color: red;
+}

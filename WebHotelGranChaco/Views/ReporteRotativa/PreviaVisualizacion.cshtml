@@ -1,0 +1,107 @@
+﻿@model IEnumerable<WebHotelGranChaco.Models.ViewModels.ViewModelDatos>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsualización de Datos</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+        form {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Previsualización de Datos</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Número de Registro</th>
+                    <th>Fecha de Registro</th>
+                    <th>Fecha de Salida</th>
+                    <th>Número de Habitación</th>
+                    <th>Número de Huéspedes</th>
+                    <th>Número de Noches</th>
+                    <th>Estado</th>
+                    <th>Precio Total</th>
+                    <th>Nombre Cliente</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>Género</th>
+                    <th>Documento de Identidad</th>
+                    <th>Nacionalidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var registro in Model)
+                {
+                    <tr>
+                        <td>@registro.Id_Registro</td>
+                        <td>@registro.FechaRegistro.ToShortDateString()</td>
+                        <td>@registro.FechaSalida.ToShortDateString()</td>
+                        <td>@registro.NumeroHabitacion</td>
+                        <td>@registro.NumeroHuspedes</td>
+                        <td>@registro.Noches</td>
+                        <td>@registro.Estado</td>
+                        <td>$@String.Format("{0:0.00}", registro.PrecioTotal)</td>
+                        <td>@registro.Cliente.Natural.Nombre</td>
+                        <td>@registro.Cliente.Natural.ApellidoPaterno</td>
+                        <td>@registro.Cliente.Natural.ApellidoMaterno</td>
+                        <td>@registro.Cliente.Natural.Genero</td>
+                        <td>@registro.Cliente.Natural.DocumentoIdentidad</td>
+                        <td>@registro.Cliente.Natural.Nacionalidad</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <form asp-action="ImprimirRegistroPDF" asp-controller="ReporteRotativa">
+            <button class="btn btn-danger "  type="submit">Imprimir PDF</button>
+        </form>
+        <form asp-action="ImprimirRegistroExcel" asp-controller="ReporteRotativa">
+            <button class="btn btn-success" type="submit">Descargar Excel</button>
+        </form>
+    </div>
+</body>
+</html>

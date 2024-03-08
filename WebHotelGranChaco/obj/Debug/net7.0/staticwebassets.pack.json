@@ -1,0 +1,377 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebHotelGranChaco.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebHotelGranChaco.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\f1.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\f1.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\f2.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\f2.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\f3.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\f3.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\f4.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\f4.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\h1.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\h1.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\h10.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\h10.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\h2.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\h2.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\h3.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\h3.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\h4.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\h4.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\h5.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\h5.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\h6.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\h6.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\h7.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\h7.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\h8.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\h8.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\h9.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\h9.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\n1.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\n1.jpg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Img\\t1.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Img\\t1.png"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Logo\\c1.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Logo\\c1.png"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\Imagenes\\Logo\\c2.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Logo\\c2.png"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\assets\\brand\\bootstrap-logo-white.svg",
+      "PackagePath": "staticwebassets\\assets\\brand\\bootstrap-logo-white.svg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\assets\\brand\\bootstrap-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\brand\\bootstrap-logo.svg"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\assets\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\assets\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\assets\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\assets\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\assets\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\assets\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\assets\\js\\color-modes.js",
+      "PackagePath": "staticwebassets\\assets\\js\\color-modes.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\css\\Cliente.css",
+      "PackagePath": "staticwebassets\\css\\Cliente.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\proyecto final 6\\pf6\\WebHotelGranChaco\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebHotelGranChaco.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebHotelGranChaco.props",
+      "PackagePath": "build\\WebHotelGranChaco.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebHotelGranChaco.props",
+      "PackagePath": "buildMultiTargeting\\WebHotelGranChaco.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebHotelGranChaco.props",
+      "PackagePath": "buildTransitive\\WebHotelGranChaco.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,27 @@
+﻿h1 {
+    text-align: center;
+    background-color: #0F4C75;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.custom-btn-info {
+    background-color: #0F4C75;
+    color: white;
+}
+.custom-btn-info:hover {
+        background-color: #B5C0D0;
+ }
+
+.custom-btn-danger {
+    background-color: #C70039;
+    color: white;
+}
+.custom-btn-danger:hover {
+        background-color: #B5C0D0;
+}
+
+.container .row{
+    background-color:white;
+}

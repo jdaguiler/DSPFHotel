@@ -1,0 +1,76 @@
+﻿@model IEnumerable<WebHotelGranChaco.Dtos.DtoRegistro>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<head>
+    <link rel="stylesheet" href="~/css/Cliente.css" asp-append-version="true" />
+</head>
+<br />
+<h1>Registro de cliente</h1>
+@*<a class="btn btn-primary" asp-action="Create">Create New</a>*@
+<br />
+<a class="btn btn-success" asp-controller="Clientes" asp-action="Create">Crear registro</a>
+<br />
+<br />
+<div class="form-group">
+    <input type="text" id="searchInput" class="form-control" placeholder="Buscar...">
+</div>
+<br />
+<div class="table-responsive">
+    <table class="table table-striped border" id="dataTable">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Fecha de Registro</th>
+                <th scope="col">Fecha de Salida</th>
+                <th scope="col">Número de Habitación</th>
+                <th scope="col">Número de Huéspedes</th>
+                <th scope="col">Noches</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Precio Total</th>
+                <th scope="col">Cliente</th>
+                <th scope="col">Habitación</th>
+                <th scope="col">Usuario</th>
+                <th scope="col">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.FechaRegistro.ToShortDateString()</td>
+                    <td>@item.FechaSalida.ToShortDateString()</td>
+                    <td>@item.NumeroHabitacion</td>
+                    <td>@item.NumeroHuspedes</td>
+                    <td>@item.Noches</td>
+                    <td>@item.Estado</td>
+                    <td>@item.PrecioTotal</td>
+                    <td>@item.Cliente.Telefono</td>
+                    <td>@item.Habitacion.Estado</td>
+                    <td>@item.Usuario.CorreoElectronico</td>
+                    <td>
+                        <div class="btn-group" role="group" aria-label="Acciones">
+                            <a class="btn btn-sm custom-btn-info" asp-action="Edit" asp-route-id="@item.Id_Registro"><i class="bi bi-pencil-square"></i></a>
+                            <a class="btn btn-sm custom-btn-info" asp-action="Details" asp-route-id="@item.Id_Registro"><i class="bi bi-info-square"></i></a>
+                            <a class="btn btn-sm custom-btn-danger" asp-action="Delete" asp-route-id="@item.Id_Registro"><i class="bi bi-trash"></i></a>
+                        </div>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#searchInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#dataTable tbody tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+}

@@ -1,0 +1,109 @@
+﻿@model IEnumerable<WebHotelGranChaco.Models.ViewModels.ViewModelDatos>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ImprimirRegistro</title>
+    <style>
+        
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #03A99F;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <table>
+            <tr>
+                <th colspan="2">Información de Registro</th>
+            </tr>
+            @foreach (var registro in Model)
+            {
+                <tr>
+                    <td><strong>Número de Registro:</strong></td>
+                    <td>@registro.Id_Registro</td>
+                </tr>
+                <tr>
+                    <td><strong>Fecha de Registro:</strong></td>
+                    <td>@registro.FechaRegistro</td>
+                </tr>
+                <tr>
+                    <td><strong>Fecha de Salida:</strong></td>
+                    <td>@registro.FechaSalida</td>
+                </tr>
+                <tr>
+                    <td><strong>Número de Habitación:</strong></td>
+                    <td>@registro.NumeroHabitacion</td>
+                </tr>
+                <tr>
+                    <td><strong>Número de Huéspedes:</strong></td>
+                    <td>@registro.NumeroHuspedes</td>
+                </tr>
+                <tr>
+                    <td><strong>Número de Noches:</strong></td>
+                    <td>@registro.Noches</td>
+                </tr>
+                <tr>
+                    <td><strong>Estado:</strong></td>
+                    <td>@registro.Estado</td>
+                </tr>
+                <tr>
+                    <td><strong>Precio Total:</strong></td>
+                    <td>@registro.PrecioTotal $</td>
+                </tr>
+                <!-- Nuevas filas para mostrar datos de Natural -->
+                <tr>
+                    <td><strong>Nombre:</strong></td>
+                    <td>@registro.Nombre</td>
+                </tr>
+                <tr>
+                    <td><strong>Apellido Paterno:</strong></td>
+                    <td>@registro.ApellidoPaterno</td>
+                </tr>
+                <tr>
+                    <td><strong>Apellido Materno:</strong></td>
+                    <td>@registro.ApellidoMaterno</td>
+                </tr>
+                <tr>
+                    <td><strong>Género:</strong></td>
+                    <td>@registro.Genero</td>
+                </tr>
+                <tr>
+                    <td><strong>Documento de Identidad:</strong></td>
+                    <td>@registro.DocumentoIdentidad</td>
+                </tr>
+                <tr>
+                    <td><strong>Nacionalidad:</strong></td>
+                    <td>@registro.Nacionalidad</td>
+                </tr>
+                <!-- Fin de las filas de datos de Natural -->
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+            }
+        </table>
+
+    </div>
+
+</body>
+</html>

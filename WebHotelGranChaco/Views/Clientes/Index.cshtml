@@ -1,0 +1,65 @@
+﻿@model IEnumerable<WebHotelGranChaco.Dtos.DtoCliente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<head>
+    <link rel="stylesheet" href="~/css/Cliente.css" asp-append-version="true" />
+</head>
+<br />
+<h1>Lista de clientes</h1>
+<br />
+<a class="btn btn-success" asp-controller="Reporte" asp-action="Imprimir">Generar reporte</a>
+<br />
+<br />
+<div class="form-group">
+    <input type="text" id="searchInput" class="form-control" placeholder="Buscar...">
+</div>
+<br />
+<div class="table-responsive">
+    <table class="table table-striped border" id="dataTable">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Género</th>
+                <th scope="col">Documento de Identidad</th>
+                <th scope="col">Nacionalidad</th>
+                <th scope="col">Teléfono</th>
+                <th scope="col">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Nombre</td>
+                    <td>@item.ApellidoPaterno  @item.ApellidoMaterno</td>
+                    <td>@item.Genero</td>
+                    <td>@item.DocumentoIdentidad</td>
+                    <td>@item.Nacionalidad</td>
+                    <td>@item.Telefono</td>
+                    <td>
+                        <a class="btn btn-sm custom-btn-info" asp-action="Edit" asp-route-id="@item.Id_Cliente"><i class="bi bi-pencil-square"></i></a>
+                        <a class="btn btn-sm custom-btn-info" asp-action="Details" asp-route-id="@item.Id_Cliente"><i class="bi bi-info-square"></i></a>
+                        <a class="btn btn-sm custom-btn-danger" asp-action="Delete" asp-route-id="@item.Id_Cliente"><i class="bi bi-trash"></i></a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#searchInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#dataTable tbody tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+}

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<WebHotelGranChaco.Models.Habitacion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Cliente.css" asp-append-version="true" />
+</head>
+
+<br />
+<h1>Datos para el registro de la habitacion</h1>
+@*<p>
+    <a asp-action="Create">Crear nueva habitacion</a>
+</p>*@
+<br />
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col h-100">
+                <div class="card mb-3 h-100 overflow-hidden">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Habitación @Html.DisplayFor(modelItem => item.NumeroHabitacion)</h3>
+                        <div class="d-flex justify-content-center">
+                            <img src="~/Imagenes/Img/@item.Imagen" alt="imagen" class="bi pe-none me-2 rounded-circle" style="width: 150px; height: 150px;">
+                        </div>
+                        <table class="table table-sm">
+                            <tbody>
+                                <tr>
+                                    <th>Precio por Noche:</th>
+                                    <td>@Html.DisplayFor(modelItem => item.PrecioPorNoche)</td>
+                                </tr>
+                                <tr>
+                                    <th>Descripción:</th>
+                                    <td>@Html.DisplayFor(modelItem => item.Descripcion)</td>
+                                </tr>
+                                <tr>
+                                    <th>Estado:</th>
+                                    <td>@Html.DisplayFor(modelItem => item.Estado)</td>
+                                </tr>
+                                <tr>
+                                    <th>Fecha de Limpieza:</th>
+                                    <td>@item.FechaLimpieza.ToShortDateString()</td>
+                                </tr>
+                                <tr>
+                                    <th>Capacidad Máxima:</th>
+                                    <td>@Html.DisplayFor(modelItem => item.TipoHabitacion.CapacidadMaxima)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block text-center">
+                        <a asp-action="Edit" asp-route-id="@item.Id_Habitacion" class="btn custom-btn-info"><i class="bi bi-pencil-square"></i></a>
+                        <a asp-action="Details" asp-route-id="@item.Id_Habitacion" class="btn custom-btn-info"><i class="bi bi-info-square"></i></a>
+                        <a asp-action="Delete" asp-route-id="@item.Id_Habitacion" class="btn custom-btn-danger"><i class="bi bi-trash"></i></a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
